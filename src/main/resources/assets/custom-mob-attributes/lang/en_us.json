@@ -1281,7 +1281,7 @@
   "text.config.custom-mob-attributes.option.scaleMultiplierForGuardianRange.curve": "Curve",
   "text.config.custom-mob-attributes.option.scaleMultiplierForGuardianRange.curve.tooltip": "0 = uniform, > 0 = values close to the center are more frequent, < 0 = values close to min and max are more frequent",
 
-  "text.config.custom-mob-attributes.section.HappyGhast": "Happy Ghast",
+  "text.config.custom-mob-attributes.section.Happy Ghast": "Happy Ghast",
   "text.config.custom-mob-attributes.option.healthMultiplierForHappyGhast": "Health Multiplier",
   "text.config.custom-mob-attributes.category.healthMultiplierForHappyGhastRange": "Health Multiplier Range",
   "text.config.custom-mob-attributes.option.healthMultiplierForHappyGhastRange.enabled": "Random Range Enabled",

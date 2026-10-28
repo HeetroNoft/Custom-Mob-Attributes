@@ -6,7 +6,6 @@ import io.wispforest.owo.config.annotation.*;
 import net.fneifnox.custommobattributes.range.Formula;
 
 @Sync(Option.SyncMode.OVERRIDE_CLIENT)
-@Modmenu(modId = "custom-mob-attributes")
 @io.wispforest.owo.config.annotation.Config(name = "custom-mob-attributes", wrapperName = "CustomMA")
 public class Config {
     public static boolean isValidFormula(String formula) {

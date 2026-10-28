@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 import net.fneifnox.custommobattributes.config.CustomMA;
+import net.fneifnox.custommobattributes.range.RangedMultipliers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,6 +17,7 @@ public class CustomMobAttributes implements ModInitializer {
 	public void onInitialize() {
 		CONFIG.load();
 		CONFIG.save();
+		RangedMultipliers.init();
 
 		// Moved register() into this so that modded mobs work without any issues
 		ServerLifecycleEvents.SERVER_STARTED.register(server -> {
